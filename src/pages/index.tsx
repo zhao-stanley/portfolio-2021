@@ -1,29 +1,41 @@
 import type { NextPage } from "next";
 import { Navbar } from "../components/Global/Navbar";
-import Typewriter from "react-typewriter-animate";
-
-//import Head from "next/head";
-//import Image from "next/image";
+import { Contests } from "../components/home/contests/Contests";
+import { Experience } from "../components/home/experience/Experience";
+import { Landing } from "../components/home/main/Landing";
+import { Projects } from "../components/home/projects/Projects";
+import { School } from "../components/home/school/School";
 
 const Home: NextPage = () => {
   return (
     <>
-      <Navbar />
-      <div className="flex flex-col w-screen h-screen bg-slate-100 dark:bg-slate-900">
-        <div className="flex flex-col mx-8 mt-28">
-          <h1 className="text-4xl font-semibold">Stanley Zhao</h1>
-          <span className="text-2xl font-normal h-min">
-            I'm a{" "}
-            <Typewriter
-              cursor={{cursorBlinkRate: "500ms"}}
-              dataToRotate={[
-                // Banner 1
-                [{ type: "word", text: "web developer." }],
-                [{ type: "word", text: "student." }],
-                [{ type: "word", text: "competitor." }],
-              ]}
-            />
-          </span>
+      <div className="bg-slate-100 dark:bg-[#141313]">
+        <Navbar />
+        <Landing />
+
+        <div className="flex flex-col w-full h-min items-center justify-center">
+          <div className="flex flex-col mx-8 gap-4 py-16" id="experience">
+            <h1 className="font-semibold text-4xl">Experience</h1>
+            <hr/>
+            <Experience />
+          </div>
+
+          <div className="flex flex-col mx-8 gap-4 py-16">
+            <h1 className="font-semibold text-4xl">Contests</h1>
+            <hr/>
+            <Contests />
+          </div>
+
+          <div className="flex flex-col mx-8 gap-4 py-16">
+            <h1 className="font-semibold text-4xl">School</h1>
+            <hr/>
+            <School />
+          </div>
+          <div className="flex flex-col mx-8 gap-4 py-16" id="projects">
+            <h1 className="font-semibold text-4xl">Projects</h1>
+            <hr/>
+            <Projects />
+          </div>
         </div>
       </div>
     </>

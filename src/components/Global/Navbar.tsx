@@ -1,12 +1,16 @@
 import { DarkModeToggle } from "../Global/DarkModeToggle";
 import { Logo } from "./Logo";
+import { github } from "./DarkModeIcons";
 
 export const Navbar = () => {
   return (
     <>
-      <nav className="fixed w-screen h-min px-4 py-4 flex flex-row justify-between items-center backdrop-filter backdrop-blur-lg bg-opacity-30 firefox:bg-opacity-90">
-        <Logo/>
-        <DarkModeToggle />
+      <nav className="fixed w-full h-min px-4 py-4 flex flex-row justify-between items-center backdrop-filter backdrop-blur-md bg-opacity-30 firefox:bg-opacity-90 z-50">
+        <Logo />
+        <div className="flex flex-row items-center gap-4">
+          <DarkModeToggle />
+          {github}
+        </div>
       </nav>
     </>
   );

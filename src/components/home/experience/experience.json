@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Web Developer",
+    "location": "Competitive Programming Initiative",
+    "tenure": "May 2022 - Present",
+    "type": "job"
+  },
+  {
+    "title": "Intern",
+    "location": "Saturn",
+    "tenure": "Jan - Mar 2022",
+    "type": "internship"
+  },
+  {
+    "title": "Contributor",
+    "location": "Appsmith",
+    "tenure": "Oct - Nov 2021",
+    "type": "internship"
+  },
+  {
+    "title": "Web Developer",
+    "location": "Freelance",
+    "tenure": "2020 - Present",
+    "type": "job"
+  }
+]

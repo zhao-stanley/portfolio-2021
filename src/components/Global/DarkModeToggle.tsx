@@ -12,8 +12,8 @@ export const DarkModeToggle = () => {
     <>
       <motion.button
         whileHover={{ scale: 1.05, rotate: 15 }}
-        whileTap={{ scale: 0.95 }}
-        className="cursor-pointer z-10 relative"
+        whileTap={{ scale: 0.90 }}
+        className="cursor-pointer z-10"
         onClick={() => {
           setTheme(theme === "light" ? "dark" : "light");
         }}

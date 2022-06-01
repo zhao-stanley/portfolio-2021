@@ -1,3 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #3845ff; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #3845ff; /* Gecko Browsers */
+}
+
+/*==================={ Hue Shiftng Gradient }===================*/
+.hueshift {
+  background: #f2709c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    45deg,
+    #ff9472,
+    #f2709c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #ff9472,
+    #f2709c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  animation: hue-rotate 5s ease-in-out infinite alternate;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes hue-rotate {
+  to {
+    filter: hue-rotate(-225deg);
+  }
+}
+
+/*==================={ Blinking Cursor }===================*/
+.cursor {
+  --cursor-blink-rate: 1500ms;
+
+  color: inherit;
+  transition: all 1.5s;
+}
+
+.cursor-blink {
+  animation: cursor-blink-keyframe var(--cursor-blink-rate) ease-in-out infinite;
+}
+
+@keyframes cursor-blink-keyframe {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
