@@ -2,6 +2,7 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 const plugin = require("tailwindcss/plugin");
 
 module.exports = {
+  mode: 'jit',
   darkMode: "class",
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",

@@ -1,32 +1,37 @@
 [
   {
     "name": "UBG100",
-    "link": "RHS",
-    "media": "ubg100.png",
-    "desc": "school"
+    "link": "https://ubg100.github.io/",
+    "desc": "UBG100 is a website serving as an online aggregator for some of the most popular and beloved games on the internet with over 20 million visits to date, all completely for free. Mobile responsiveness is in progress.",
+    "theme": "df8686",
+    "tags": ["html", "js", "css", "njs"]
   },
   {
     "name": "Parallax",
-    "link": "RHS",
-    "media": "ubg100.png",
-    "desc": "school"
+    "link": "https://parallaxbot.cf/",
+    "desc": "A website for Parallax, a verified Discord bot with utility and entertainment that served over 300,000 users. Parallax is currently being rewritten and improved.",
+    "theme": "b07cc6",
+    "tags": ["html", "js", "css", "njs", "djs"]
   },
   {
-    "name": "Music Artist Portfolio",
-    "link": "RHS",
-    "media": "ubg100.png",
-    "desc": "school"
+    "name": "Artist Portfolio",
+    "link": "https://joseph.cf/",
+    "desc": "A fully responsive website for a musician and my first time using the React library.",
+    "theme": "c382ff",
+    "tags": ["r", "tw", "css", "njs"]
   },
   {
     "name": "Stickers",
-    "link": "RHS",
-    "media": "ubg100.png",
-    "desc": "school"
+    "link": "https://joinsaturn.com/",
+    "desc": "A dynamic social media component I created as part of my internship project for the company Saturn.",
+    "theme": "e68a51",
+    "tags": ["r", "tw", "njs", "nxjs"]
   },
   {
     "name": "Club Platform",
-    "link": "RHS",
-    "media": "ubg100.png",
-    "desc": "school"
+    "link": "https://stanleyweb.dev/",
+    "desc": "My unique interpretation of a club platform that I created in two days. It's a fully responsive, single page application.",
+    "theme": "a6a1dd",
+    "tags": ["r", "tw", "njs"]
   }
 ]

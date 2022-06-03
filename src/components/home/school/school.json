@@ -1,11 +1,14 @@
 [
   {
-    "title": "Code Club President"
+    "title": "President",
+    "org": "Code Club "
   },
   {
-    "title": "Science Olympiad Captain"
+    "title": "Captain",
+    "org": "Science Olympiad "
   },
   {
-    "title": "Marching Band CTO"
+    "title": "Chief Technology Officer",
+    "org": "Marching Band "
   }
 ]

@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import experience from "./experience.json";
 import { SchoolIcon, JobIcon, InternshipIcon } from "./ExpIcons";
 
-const expList = experience.map((e) => {
+const expList = experience.map((e, key) => {
   return (
     <motion.li
-      key={e.title}
+      key={key}
       whileHover={{ scale: 1.01 }}
       whileTap={{ scale: 0.97 }}
       className="flex flex-row gap-3 items-center justify-start bg-slate-200 dark:bg-[#2b2929] w-[90vw] text-black dark:text-slate-200 px-4 py-4 rounded-xl"

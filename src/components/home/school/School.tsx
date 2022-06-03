@@ -16,7 +16,7 @@ const schoolList = school.map((e) => {
           {e.title}
         </h1>
         <h2 className="text-md text-gray-700 dark:text-gray-300 font-normal">
-          <span className="font-semibold">Roslyn High School</span>
+          <span className="font-semibold">{e.org}</span>
         </h2>
       </div>
     </motion.li>
