@@ -15,7 +15,8 @@ export const About = () => {
         <a
           href="https://joincpi.org/"
           className="text-[#813aea] inline-flex flex-row items-center gap-[0.0625rem]"
-          target={"_blank"}
+          target="_blank"
+          rel="noreferrer"
         >
           Competitive Programming Initiative{" "}
           <svg
@@ -37,7 +38,8 @@ export const About = () => {
         <a
           href="https://usaco.guide/"
           className="text-blue-600 inline-flex flex-row items-center gap-[0.0625rem]"
-          target={"_blank"}
+          target="_blank"
+          rel="noreferrer"
         >
           USACO Guide
           <svg
@@ -79,7 +81,8 @@ export const About = () => {
         <motion.span className="inline-block" whileTap={{ scale: 0.97 }}>
           <a
             href="https://github.com/zhao-stanley"
-            target={"_blank"}
+            target="_blank"
+            rel="noreferrer"
             className="font-semibold w-2 h-4 bg-purple-200 text-purple-500 dark:bg-purple-500 dark:text-white dark:bg-opacity-70 px-[0.125rem] rounded-sm text-opacity-100 cursor-pointer"
           >
             @zhao-stanley

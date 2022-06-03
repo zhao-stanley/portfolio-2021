@@ -34,7 +34,8 @@ const projList = projects.map((e, index) => {
         <a
           href={e.link}
           className="flex items-center gap-1 w-min"
-          target={"_blank"}
+          target="_blank"
+          rel="noreferrer"
         >
           <h1 className="text-2xl font-semibold text-white whitespace-nowrap">
             {e.name}
