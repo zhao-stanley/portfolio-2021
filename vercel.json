@@ -1,1 +1,5 @@
-yar
+{
+	"github": {
+		"silent": true
+	}
+} 
