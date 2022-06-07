@@ -17,15 +17,15 @@
     "name": "Artist Portfolio",
     "link": "https://joseph.cf/",
     "desc": "A fully responsive website for a musician and my first time using the React library.",
-    "theme": "c382ff",
-    "tags": ["r", "tw", "css", "njs"]
+    "theme": "4085f5",
+    "tags": ["r", "tw", "njs"]
   },
   {
     "name": "Stickers",
     "link": "https://joinsaturn.com/",
     "desc": "A dynamic social media component I created as part of my internship project for the company Saturn.",
     "theme": "e68a51",
-    "tags": ["r", "tw", "njs", "nxjs"]
+    "tags": ["nxjs", "r", "tw", "njs", "dayjs"]
   },
   {
     "name": "Club Platform",

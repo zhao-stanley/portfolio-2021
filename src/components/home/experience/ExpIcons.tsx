@@ -2,7 +2,7 @@ export const SchoolIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-10 w-10"
+      className="h-auto w-10 xl:w-12"
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"
@@ -23,7 +23,7 @@ export const JobIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-10 w-10"
+      className="h-auto w-10 xl:w-12"
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"
@@ -42,7 +42,7 @@ export const InternshipIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-10 w-10"
+      className="h-auto w-10 xl:w-12"
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"

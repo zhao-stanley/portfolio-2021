@@ -4,8 +4,8 @@ import { Hero } from "./Hero";
 export const Landing = () => {
   return (
     <>
-      <div className="flex flex-col w-full h-screen items-center justify-start gap-8">
-        <div className="flex flex-col mx-8 gap-8 mt-24 justify-center">
+      <div className="flex flex-col w-full h-screen items-center justify-start 2xl:justify-center gap-8">
+        <div className="flex flex-col gap-8 mt-24 justify-center">
           <Hero />
           <About />
         </div>

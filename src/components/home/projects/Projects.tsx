@@ -16,47 +16,51 @@ const projList = projects.map((e, index) => {
     <motion.li
       key={e.name}
       whileHover={{ scale: 1.01 }}
-      whileTap={{ scale: 0.97 }}
-      className="rounded-xl p-4 drop-shadow-xl"
+      whileTap={{ scale: 0.99 }}
+      className="rounded-xl p-4 xl:p-5 drop-shadow-xl flex flex-col justify-between"
       style={{ backgroundColor: `#${e.theme}` }}
     >
-      <video
-        src={videos[index]}
-        placeholder="blur"
-        className="rounded-md shadow-md shadow-black"
-        autoPlay
-        muted
-        loop
-        disablePictureInPicture
-        playsInline
-      ></video>
-      <div className="my-4">
-        <a
-          href={e.link}
-          className="flex items-center gap-1 w-min"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <h1 className="text-2xl font-semibold text-white whitespace-nowrap">
-            {e.name}
-          </h1>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-4 w-4"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="#fff"
-            strokeWidth={1}
+      <div>
+        <video
+          src={videos[index]}
+          placeholder="blur"
+          className="rounded-md shadow-md shadow-black"
+          autoPlay
+          muted
+          loop
+          disablePictureInPicture
+          playsInline
+        ></video>
+        <div className="my-4">
+          <a
+            href={e.link}
+            className="flex items-center gap-1 w-min"
+            target="_blank"
+            rel="noreferrer"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-            />
-          </svg>
-        </a>
-        <hr />
-        <h2 className="text-xs font-normal text-gray-100 mt-1">{e.desc}</h2>
+            <h1 className="text-2xl xl:text-3xl font-semibold text-white whitespace-nowrap">
+              {e.name}
+            </h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-auto w-4 xl:w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="#fff"
+              strokeWidth={1}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              />
+            </svg>
+          </a>
+          <hr className="my-1 xl:my-2" />
+          <h2 className="text-xs xl:text-sm font-normal text-gray-100">
+            {e.desc}
+          </h2>
+        </div>
       </div>
       <Tags tagsArr={tagsArr} />
     </motion.li>
@@ -65,7 +69,7 @@ const projList = projects.map((e, index) => {
 
 export const Projects = () => {
   return (
-    <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl">
+    <ul className="sm:w-[75vw] xl:w-[65vw] grid grid-cols-1 lg:grid-cols-2 gap-4 xl:gap-6 max-w-7xl">
       {projList}
     </ul>
   );

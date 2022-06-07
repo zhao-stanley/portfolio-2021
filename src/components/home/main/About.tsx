@@ -1,9 +1,10 @@
 import * as React from "react";
 import { motion } from "framer-motion";
+import { External } from "./External";
 
 export const About = () => {
   return (
-    <div>
+    <div className="w-[85vw] sm:w-[75vw] xl:w-[65vw] max-w-5xl text-lg">
       <p>
         Hey there. I'm a junior in high school who loves creating{" "}
         <span className="text-emerald-400">beautiful</span> and{" "}
@@ -12,51 +13,9 @@ export const About = () => {
       <br />
       <p>
         I'm currently a web developer at the{" "}
-        <a
-          href="https://joincpi.org/"
-          className="text-[#813aea] inline-flex flex-row items-center gap-[0.0625rem]"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Competitive Programming Initiative{" "}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-4 w-4"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2}
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-            />
-          </svg>
-        </a>
-        , which aims to teach people about competitive programming via the{" "}
-        <a
-          href="https://usaco.guide/"
-          className="text-blue-600 inline-flex flex-row items-center gap-[0.0625rem]"
-          target="_blank"
-          rel="noreferrer"
-        >
-          USACO Guide
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-4 w-4"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2}
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-            />
-          </svg>
-        </a>
+        <External link="https://joincpi.org/" text="Competitive Programming Initiative" color="text-[#813aea]"/>
+        , which promotes competitive programming through plenty of online resources such as the{" "}
+        <External link="https://usaco.guide/" text="USACO Guide" color="text-blue-600"/>
         .
       </p>
       <br />
