@@ -1,6 +1,3 @@
-import { github } from "./DarkModeIcons";
-import { motion } from "framer-motion";
-
 export const Footer = () => {
   const startDateObj = new Date("January 1, 2022");
   const currentDateObj = new Date();
