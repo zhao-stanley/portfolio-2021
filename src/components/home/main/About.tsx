@@ -8,7 +8,7 @@ export const About = () => {
       <p>
         Hey there. I'm a junior in high school who loves creating{" "}
         <span className="text-emerald-400">beautiful</span> and{" "}
-        <span className="text-emerald-400">efficient</span> web applications.
+        <span className="text-emerald-400">functional</span> web applications.
       </p>
       <br />
       <p>
