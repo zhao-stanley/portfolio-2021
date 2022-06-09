@@ -13,22 +13,28 @@ export const About = () => {
       <br />
       <p>
         I'm currently a web developer at the{" "}
-        <External link="https://joincpi.org/" text="Competitive Programming Initiative" color="text-[#813aea]"/>
-        , which promotes competitive programming through plenty of online resources such as the{" "}
-        <External link="https://usaco.guide/" text="USACO Guide" color="text-blue-600"/>
+        <External
+          link="https://joincpi.org/"
+          text="Competitive Programming Initiative"
+          color="text-[#813aea]"
+        />
+        , which promotes competitive programming through the{" "}
+        <External
+          link="https://usaco.guide/"
+          text="USACO Guide"
+          color="text-blue-600"
+        />
         .
       </p>
       <br />
       <p>
-        Recently I've been learning more backend, aiming to eventually go full
-        stack. I also do{" "}
-        <span className="text-red-400">competitive programming</span> and{" "}
-        <span className="text-red-400">cybersecurity</span> on the side.
+        I also do <span className="text-red-400">competitive programming</span>{" "}
+        and <span className="text-red-400">cybersecurity</span> on the side.
       </p>
 
       <br />
       <p>
-        Feel free to check out some of my{" "}
+        Check out some of my{" "}
         <motion.span
           className="hueshift font-semibold inline-block"
           whileHover={{ scale: 1.02 }}
