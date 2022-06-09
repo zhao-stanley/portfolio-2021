@@ -37,13 +37,13 @@ export const About = () => {
         Check out some of my{" "}
         <motion.span
           className="hueshift font-semibold inline-block"
-          whileHover={{ scale: 1.02 }}
-          whileTap={{ scale: 0.97 }}
+          whileHover={{ scale: 1.01 }}
+          whileTap={{ scale: 0.99 }}
         >
           <a href="#projects">{"{projects}"}</a>
         </motion.span>{" "}
         or view my GitHub profile{" "}
-        <motion.span className="inline-block" whileTap={{ scale: 0.97 }}>
+        <motion.span className="inline-block" whileTap={{ scale: 0.99 }}>
           <a
             href="https://github.com/zhao-stanley"
             target="_blank"
