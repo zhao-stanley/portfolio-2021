@@ -27,7 +27,7 @@ const moon = (
 
 const github = (
   <motion.a
-    href="https://github.com/zhao-stanley"
+    href="https://github.com/zhao-stanley/portfolio"
     target="_blank"
     whileHover={{ scale: 1.05 }}
     whileTap={{ scale: 0.9 }}
