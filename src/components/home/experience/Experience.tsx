@@ -4,7 +4,7 @@ import { JobIcon, InternshipIcon } from "./ExpIcons";
 
 const expList = experience.map((e, key) => {
   return e.href ? (
-    <a href={e.href} key={key} target="_blank">
+    <a href={e.href} key={key} target="_blank" rel="noreferrer">
       <motion.li
         whileHover={{ scale: 1.01 }}
         whileTap={{ scale: 0.99 }}
