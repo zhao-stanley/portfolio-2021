@@ -1,9 +1,24 @@
 [
   {
+    "title": "Webmaster",
+    "location": "discussmed",
+    "tenure": "May 2022 - Present",
+    "type": "job",
+    "href": "https://discussmed.org/"
+  },
+  {
     "title": "Web Developer",
     "location": "Competitive Programming Initiative",
     "tenure": "May 2022 - Present",
-    "type": "job"
+    "type": "job",
+    "href": "https://joincpi.org/"
+  },
+  {
+    "title": "Web Developer",
+    "location": "CerealCodes",
+    "tenure": "June 2022 - Present",
+    "type": "job",
+    "href": "https://cerealcodes.org/"
   },
   {
     "title": "Intern",

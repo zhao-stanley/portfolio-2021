@@ -1,37 +1,50 @@
 [
   {
+    "name": "discussmed",
+    "link": "https://discussmed.org/",
+    "desc": "discussmed strives to serve as the intermediate between youth and medical advocacy organizations.",
+    "theme": "1f6c8a",
+    "tags": ["nxjs", "tw", "js", "r"],
+    "video": "discussmed.mp4"
+  },
+  {
     "name": "UBG100",
     "link": "https://ubg100.github.io/",
     "desc": "UBG100 is a website serving as an online aggregator for some of the most popular and beloved games on the internet with over 20 million visits to date, all completely for free. Mobile responsiveness is in progress.",
     "theme": "df8686",
-    "tags": ["html", "js", "css", "njs"]
+    "tags": ["html", "js", "css", "njs"],
+    "video": "ubg.mp4"
   },
   {
     "name": "Parallax",
     "link": "https://parallaxbot.cf/",
     "desc": "A website for Parallax, a verified Discord bot with utility and entertainment that served over 300,000 users. Parallax is currently being rewritten and improved.",
     "theme": "b07cc6",
-    "tags": ["html", "js", "css", "njs", "djs"]
+    "tags": ["html", "js", "css", "njs", "djs"],
+    "video": "parallax.mp4"
   },
   {
     "name": "Artist Portfolio",
     "link": "https://joseph.cf/",
     "desc": "A fully responsive website for a musician and my first time using the React library.",
     "theme": "4085f5",
-    "tags": ["r", "tw", "njs"]
+    "tags": ["r", "tw", "njs"],
+    "video": "jcp.mp4"
   },
   {
     "name": "Stickers",
     "link": "https://joinsaturn.com/",
     "desc": "A dynamic social media component I created as part of my internship project for the company Saturn.",
     "theme": "e68a51",
-    "tags": ["nxjs", "r", "tw", "njs", "dayjs"]
+    "tags": ["nxjs", "r", "tw", "njs", "dayjs"],
+    "video": "sticker.mp4"
   },
   {
     "name": "Club Platform",
     "link": "https://stanleyweb.dev/",
     "desc": "My unique interpretation of a club platform that I created in two days. It's a fully responsive, single page application.",
     "theme": "a6a1dd",
-    "tags": ["r", "tw", "njs"]
+    "tags": ["r", "tw", "njs"],
+    "video": "platform.mp4"
   }
 ]
