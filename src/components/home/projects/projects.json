@@ -1,10 +1,18 @@
 [
   {
+    "name": "Roslyn Code Club",
+    "link": "https://roslyncode.vercel.app/",
+    "desc": "Replaced the outdated club website with a completely refreshed one, using a modern tech stack from scratch. Implemented OAuth and a workshop system for easier access/organization.",
+    "theme": "5d78fc",
+    "tags": ["nxjs", "tw", "js", "r", "Markdown"],
+    "video": "roslyncodeclub.mp4"
+  },
+  {
     "name": "discussmed",
     "link": "https://discussmed.org/",
     "desc": "discussmed strives to serve as the intermediate between youth and medical advocacy organizations.",
     "theme": "1f6c8a",
-    "tags": ["nxjs", "tw", "js", "r"],
+    "tags": ["nxjs", "tw", "js", "r", "MDX"],
     "video": "discussmed.mp4"
   },
   {
@@ -27,7 +35,7 @@
     "name": "Artist Portfolio",
     "link": "https://joseph.cf/",
     "desc": "A fully responsive website for a musician and my first time using the React library.",
-    "theme": "4085f5",
+    "theme": "507D5F",
     "tags": ["r", "tw", "njs"],
     "video": "jcp.mp4"
   },

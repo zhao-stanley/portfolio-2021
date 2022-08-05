@@ -7,7 +7,6 @@ const projList = projects.map((e, index) => {
   return (
     <motion.li
       key={e.name}
-      whileHover={{ scale: 1.01 }}
       whileTap={{ scale: 0.99 }}
       className="rounded-xl p-4 xl:p-5 drop-shadow-xl flex flex-col justify-between"
       style={{ backgroundColor: `#${e.theme}` }}

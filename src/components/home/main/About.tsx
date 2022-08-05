@@ -18,18 +18,11 @@ export const About = () => {
           text="Competitive Programming Initiative"
           color="text-[#813aea]"
         />
-        , which promotes competitive programming through the{" "}
-        <External
-          link="https://usaco.guide/"
-          text="USACO Guide"
-          color="text-blue-600"
-        />
         .
       </p>
-      <br />
       <p>
         I also do <span className="text-red-400">competitive programming</span>{" "}
-        and <span className="text-red-400">cybersecurity</span> on the side.
+        and <span className="text-blue-500">cybersecurity</span> on the side.
       </p>
 
       <br />

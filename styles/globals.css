@@ -6,13 +6,6 @@
   scroll-behavior: smooth;
 }
 
-::selection {
-  background: #3845ff; /* WebKit/Blink Browsers */
-}
-::-moz-selection {
-  background: #3845ff; /* Gecko Browsers */
-}
-
 /*==================={ Hue Shiftng Gradient }===================*/
 .hueshift {
   background: #f2709c; /* fallback for old browsers */

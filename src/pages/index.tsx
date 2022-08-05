@@ -16,24 +16,24 @@ const Home: NextPage = () => {
         <div className="flex flex-col w-full h-min items-center justify-center">
           <div className="flex flex-col mx-8 gap-4 py-16" id="experience">
             <h1 className="font-semibold text-4xl xl:text-5xl">Experience</h1>
-            <hr/>
+            <hr />
             <Experience />
           </div>
 
           <div className="flex flex-col mx-8 gap-4 py-16">
             <h1 className="font-semibold text-4xl xl:text-5xl">Contests</h1>
-            <hr/>
+            <hr />
             <Contests />
           </div>
 
           <div className="flex flex-col mx-8 gap-4 py-16">
             <h1 className="font-semibold text-4xl xl:text-5xl">School</h1>
-            <hr/>
+            <hr />
             <School />
           </div>
           <div className="flex flex-col mx-8 gap-4 py-32" id="projects">
             <h1 className="font-semibold text-4xl xl:text-5xl">Projects</h1>
-            <hr/>
+            <hr />
             <Projects />
           </div>
         </div>
