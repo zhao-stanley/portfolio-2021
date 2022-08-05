@@ -28,20 +28,20 @@ export const About = () => {
       <br />
       <p>
         Check out some of my{" "}
-        <motion.span
+        <motion.a
           className="hueshift font-semibold inline-block"
-          whileHover={{ scale: 1.01 }}
-          whileTap={{ scale: 0.99 }}
+          href="#projects"
+          whileTap={{ scale: 0.95 }}
         >
-          <a href="#projects">{"{projects}"}</a>
-        </motion.span>{" "}
+          {"{projects}"}
+        </motion.a>{" "}
         or view my GitHub profile{" "}
-        <motion.span className="inline-block" whileTap={{ scale: 0.99 }}>
+        <motion.span className="inline-block" whileTap={{ scale: 0.95 }}>
           <a
             href="https://github.com/zhao-stanley"
             target="_blank"
             rel="noreferrer"
-            className="font-semibold w-2 h-4 bg-purple-200 text-purple-500 dark:bg-purple-500 dark:text-white dark:bg-opacity-70 px-[0.125rem] rounded-sm text-opacity-100 cursor-pointer"
+            className="font-semibold h-4 bg-purple-200 text-purple-500 dark:bg-purple-500 dark:text-white dark:bg-opacity-70 px-[0.125rem] rounded-sm text-opacity-100 cursor-pointer w-full"
           >
             @zhao-stanley
           </a>
