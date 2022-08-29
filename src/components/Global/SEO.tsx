@@ -51,6 +51,7 @@ export const SEO = () => {
           property="twitter:image"
           content="https://www.szhao.dev/img/preview.png"
         />
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
     </>
   );

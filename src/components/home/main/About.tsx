@@ -4,9 +4,9 @@ import { External } from "./External";
 
 export const About = () => {
   return (
-    <div className="w-[85vw] sm:w-[75vw] xl:w-[65vw] max-w-5xl text-lg">
+    <div className="w-[85vw] sm:w-[75vw] xl:w-[65vw] max-w-5xl text-lg tracking-tight">
       <p>
-        Hey there. I'm a rising highschool senior who loves creating{" "}
+        Hey there! I'm a rising high school senior who loves creating{" "}
         <span className="text-emerald-400">beautiful</span> and{" "}
         <span className="text-emerald-400">functional</span> web applications.
       </p>

@@ -16,10 +16,10 @@ const contestList = contests.map((e) => {
       <li className="flex flex-row gap-3 xl:gap-4 items-center justify-start w-full">
         {e.genre == "Cybersecurity" ? <Cybersecurity /> : <CP />}
         <div className="flex flex-col">
-          <h1 className="text-xl xl:text-2xl text-black dark:text-white font-semibold">
+          <h1 className="text-xl xl:text-2xl text-black dark:text-white font-semibold tracking-tighter">
             {e.title}
           </h1>
-          <h2 className="text-md xl:text-lg text-gray-700 dark:text-gray-300 font-normal">
+          <h2 className="text-md xl:text-lg text-gray-700 dark:text-gray-300 font-normal tracking-tighter">
             <span className="font-semibold">{e.place}</span>
             <br />
             {e.genre}
@@ -51,10 +51,10 @@ const contestList = contests.map((e) => {
       {e.genre == "Cybersecurity" ? <Cybersecurity /> : <CP />}
 
       <div className="flex flex-col">
-        <h1 className="text-xl xl:text-2xl text-black dark:text-white font-semibold">
+        <h1 className="text-xl xl:text-2xl text-black dark:text-white font-semibold tracking-tighter">
           {e.title}
         </h1>
-        <h2 className="text-md xl:text-lg text-gray-700 dark:text-gray-300 font-normal">
+        <h2 className="text-md xl:text-lg text-gray-700 dark:text-gray-300 font-normal tracking-tighter">
           <span className="font-semibold">{e.place}</span>
           <br />
           {e.genre}

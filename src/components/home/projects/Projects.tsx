@@ -28,7 +28,7 @@ const projList = projects.map((e, index) => {
           target="_blank"
           rel="noreferrer"
         >
-          <h1 className="text-2xl xl:text-3xl font-semibold text-white whitespace-nowrap">
+          <h1 className="text-2xl xl:text-3xl font-bold text-white whitespace-nowrap tracking-tighter">
             {e.name}
           </h1>
           <svg
@@ -47,7 +47,7 @@ const projList = projects.map((e, index) => {
           </svg>
         </a>
         <hr className="my-1 xl:my-2" />
-        <h2 className="text-xs xl:text-sm font-normal text-gray-100">
+        <h2 className="text-xs xl:text-sm font-normal text-gray-100 tracking-tighter">
           {e.desc}
         </h2>
       </div>

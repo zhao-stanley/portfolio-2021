@@ -12,10 +12,10 @@ const schoolList = school.map((e) => {
     >
       <SchoolIcon/>
       <div className="flex flex-col">
-        <h1 className="text-xl xl:text-2xl text-black dark:text-white font-semibold">
+        <h1 className="text-xl xl:text-2xl text-black dark:text-white font-semibold tracking-tighter">
           {e.title}
         </h1>
-        <h2 className="text-md xl:text-lg text-gray-700 dark:text-gray-300 font-normal">
+        <h2 className="text-md xl:text-lg text-gray-700 dark:text-gray-300 font-normal tracking-tighter">
           <span className="font-semibold">{e.org}</span>
         </h2>
       </div>

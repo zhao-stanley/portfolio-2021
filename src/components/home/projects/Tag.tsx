@@ -7,7 +7,7 @@ export const Tag = ({
 }) => {
   return (
     <p
-      className={`text-xs xl:text-sm font-bold px-2 py-1 rounded-full text-gray-50 ${background}`}
+      className={`text-xs xl:text-sm font-semibold px-2 py-1 rounded-full text-gray-50 tracking-tight ${background}`}
     >
       {children}
     </p>
